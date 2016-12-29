@@ -12,7 +12,6 @@ RUN set -ex && apk add --no-cache curl \
 
 WORKDIR /app
 RUN npm install --production
-ADD root /
 
 ENV NODE_ENV=production
 CMD ["npm", "start"]
