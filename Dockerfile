@@ -16,5 +16,5 @@ RUN npm install --production
 ENV NODE_ENV=production
 CMD ["npm", "start"]
 
-VOLUME /app/config
+VOLUME /app/config /app/public/grapejs/uploads /app/public/mosaico/uploads
 EXPOSE 3000
