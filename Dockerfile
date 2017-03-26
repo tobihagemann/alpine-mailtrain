@@ -1,7 +1,7 @@
 FROM node:7.3.0-alpine
 MAINTAINER Tobias Hagemann <tobias.hagemann@gmail.com>
 
-ARG MAILTRAIN_VERSION=1.21.0
+ARG MAILTRAIN_VERSION=1.22.0
 
 RUN set -ex && apk add --no-cache curl \
   && cd /tmp \
